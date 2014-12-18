@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto','Helvetica Neue','Helvetica','Arial', 'sans-serif';
+}
+
+h1, h2 {
+  color: #DFE1E8;
+}
+
+a {
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+a.line {
+  border-bottom: 2px solid transparent;
+}
+
+a.line:hover {
+  border-bottom: 2px solid;
+}
+
+header {
+  position: relative;
+  background-color: #232830;
+}
+
+header .logo {
+  position: absolute;
+  float: left;
+  margin: 10px 0 0 14px;
+  cursor: pointer;
+  color: #eee;
+  font-size: 48px;
+  transition: .5s ease;
+}
+
+header .logo:hover {
+  font-size: 52px;
+}
+
+header nav {
+  float: right;
+  margin: 30px 30px 0 0;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  white-space: nowrap;
+  color: #eee;
+}
+
+header h1 {
+  font-family: 'Roboto', 'Helvetica', 'Neue', 'Arial', sans-serif;
+  text-transform: uppercase;
+  clear: both;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #eee;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+header h1 span {
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  border: #eee solid 10px;
+  max-width: 80vw;
+}
+
+header h1 {
+  margin-bottom: 30px;
+  font-weight: 550;
+}
+
+header h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+header .subtitle {
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #eee;
+  line-height: 1;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300px;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+section .about {
+  margin: 48px auto;
+}
+
+section p {
+  text-align: center;
+  color: #CA8E60;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  font-weight: 300px;
+  margin-bottom: 24px
+}
+
+section .about .avatar {
+  text-align: center;
+  display: inline-block;
+}
+
+section .about .intro {
+  position: relative;
+  text-align: center;
+}
+
+section .about .avatar img {
+  display: inline-block;
+  border-radius: 64px;
+}
+
+section .about .skill {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  background-color: #D5D8DD;
+  color: #fff;
+  font-size: 48px;
+  padding: 14px 23px;
+  border-radius: 48px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+section .about .skill:hover {
+  font-size: 52px;
+  color: #CA8E60;
+}
+
+section .about .skill#skill1 {
+  margin: 30px -375px;
+}
+section .about .skill#skill2 {
+  padding: 14px 17px;
+  margin: 30px -254px;
+}
+section .about .skill#skill3 {
+  margin: 30px 30px;
+}
+section .about .skill#skill4 {
+  margin: 30px 146px;
+  padding: 14px 18px;
+}
+
+section .about .intro p {
+  margin: 32px auto;
+  color: rgba(0, 0, 0, 0.4);
+  width: 500px;
+  text-transform: none;
+  letter-spacing: 0.05em;
+}
+
+section .work {
+  text-align: center;
+  background-color: #D5D8DD;
+  padding: 32px 48px;
+  margin: 0 32px 48px 32px;
+}
+
+footer {
+  padding: 32px 0 16px 0;
+  background-color: #232830;
+}
+
+footer p {
+  text-align: center;
+  color: #CA8E60;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  font-weight: 300px;
+}
+
+footer .contact {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+footer .contact .item {
+  margin: 48px 24px;
+  color: #eee;
+  font-size: 48px;
+}
